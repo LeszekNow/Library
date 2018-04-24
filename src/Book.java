@@ -15,7 +15,6 @@ public class Book {
         this.author = author;
         this.borrowPrice = borrowPrice;
         this.pages = pages;
-
     }
 
     public Book() {

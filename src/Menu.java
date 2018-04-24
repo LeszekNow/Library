@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Menu {
     public static void displayMainMenu(){
         System.out.println("-------------------\nWelcome in my Library-Task\n-------------------\nChoose an option:");
-        System.out.println("1.Create account\n2.LogIn\n3.Delete an account\n4.Exit\n-------------------");
+        System.out.println("1.Create an account\n2.LogIn\n3.Delete an account\n4.Exit\n-------------------");
     }
 
     public static void displaySubMenu(){

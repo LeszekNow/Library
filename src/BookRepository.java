@@ -8,13 +8,6 @@ public class BookRepository {
         return booksList;
     }
 
-    public void addToBooksList(Book book) {
-        this.booksList.add(book);
-    }
-
-    public Book getBook(int index){
-        return booksList.get(index);
-    }
 
     public void showBooks(){
         for(Book book : booksList){

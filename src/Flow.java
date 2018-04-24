@@ -151,6 +151,7 @@ public class Flow {
         for(Book book : SQLConnection.showListOfBooks()){
             System.out.println(book.toString());
         }
+        System.out.println("--------------------");
         int bookId = scanner.nextInt();
         System.out.println("Enter your PESEL:");
         String peselOfClient = scanner.next();

@@ -6,13 +6,7 @@ public class ClientRepository {
 
     public ArrayList<Client> getClientList() {
         return clientList;
-    }
 
-    public void addToClientList(Client client) {
-        this.clientList.add(client);
-    }
-    public Client getClient(int index){
-       return clientList.get(index);
     }
     public void showClients(){
         for(Client client : clientList){
