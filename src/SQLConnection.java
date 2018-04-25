@@ -6,7 +6,6 @@ public class SQLConnection {
     public static void connectToDataBase(String sqlAccess){
         Connection connect = null;
         PreparedStatement preparedStatement = null;
-        ResultSet resultSet = null;
         try{
             Class.forName("com.mysql.jdbc.Driver");
             connect = DriverManager
